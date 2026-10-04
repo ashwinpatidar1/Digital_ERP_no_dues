@@ -2,7 +2,7 @@
 const bcrypt = require("bcrypt");
 
 async function generateHash() {
-    const password = "Faculty@123";
+    const password = "Director@123";
 
     const hash = await bcrypt.hash(password, 10);
 
